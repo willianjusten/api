@@ -98,7 +98,6 @@ module.exports = {
     await strapi.plugins["email-designer"].services.email.sendTemplatedEmail(
       {
         to: userInfo.email,
-        from: "no-reply@wongames.com",
       },
       {
         templateId: 1,
